@@ -9,8 +9,36 @@
 </head>
 
 <body>
+    <header>
 
-    <h1>Machine Learning Example</h1>
+        <h1>Machine Learning Example</h1>
+        <h3>Our neural network will identify the input tweet's author as either 'Trump' or 'Kardashian'</h3>
+        <hr>
+
+    </header>
+
+    <main>
+
+        <div class="input-block">
+            <h3>Input Tweet: </h3>
+            <p id="input-tweet"></p>
+        </div>
+
+        <br>
+
+        <div>Status: <strong><span id="training-status"></span></strong></div>
+
+        <br>
+
+        <div class="result-block">
+            <h3>Result: </h3>
+            <p id="result"></p>
+        </div>
+
+    </main>
+
+    <footer></footer>
+
 
     <script src="./js/brain.js"></script>
     <script src="./js/training-data.js"></script>
